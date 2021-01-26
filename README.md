@@ -14,5 +14,9 @@
 	* pull : 로컬 repository와 비교하여 병합하고, local repository에 저장(add)까지 수행
 4. 사진 첨부하기
 ![maxresdefault](https://user-images.githubusercontent.com/74919266/105702673-79799b80-5f4f-11eb-9fc0-bec07ce55c33.jpg)
-5. branch, checkout audfu 
-		
+5. branch, checkout 명령어 설명
+	* branch : 작업을 분기해서 처리하는 경우
+	* checkout : 브랜치를 전환할때
+6. merge (fast-forward / merge conflict)
+	* fast-forward : master 브랜치가 다른 브랜치가 포인팅하고 있는 커밋을 포인팅할때
+	* merge conflict : 병합한 파일에 충돌 영역이 존재하여 병합에 실패할때		
