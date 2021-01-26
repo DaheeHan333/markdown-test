@@ -8,5 +8,11 @@
 	* add : 파일을 staged 상태로 만드는 것
 	* commit -m "<MESSAGE>" : <MESSAGE>라는 커밋메시지로 스테이징된 파일들을 커밋하여 하나의 버전으로 만들어 git 데이터베이스에 저장 
 3. remote, clone, push, pull에 대한 설명
-	* remote : 
+	* remote : 원격 저장소를 관리할 수 있는 명령어. git remote add origin <URL> 을 입력하면, origin이라는 이름으로 해당 URL을 원격 저장소로 저장
+	* clone : git clone <URL> 을 입력하면, remote repository에 있는 모든 파일들을 가져옴
+	* push : git push -u <원격 저장소 별명> <로컬 브랜치명> 을 입력하면, 로컬에 있는 파일을 remote repository에 업로드	
+	* pull : 로컬 repository와 비교하여 병합하고, local repository에 저장(add)까지 수행
+4. 사진 첨부하기
+![maxresdefault](https://user-images.githubusercontent.com/74919266/105702673-79799b80-5f4f-11eb-9fc0-bec07ce55c33.jpg)
+5. branch, checkout audfu 
 		
